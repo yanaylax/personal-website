@@ -1,0 +1,34 @@
+@import "../../variables.scss";
+
+.card {
+  height: 40em;
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba($color: $brown, $alpha: 0.8);
+  margin: 1em;
+  .card_title {
+    padding: 1em;
+    background-color: rgba($color: $brown, $alpha: 0.8);
+    border-radius: 1em 1em 0 0;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+  }
+  .card_content {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    p {
+      margin: 0;
+      font-size: 1.2em;
+    }
+  }
+}

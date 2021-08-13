@@ -1,0 +1,9 @@
+@import "./variables.scss";
+
+body,
+html {
+  height: 100vh;
+  font-size: 16px;
+  background-color: $base-color;
+  font-family: "Georama", sans-serif;
+}
