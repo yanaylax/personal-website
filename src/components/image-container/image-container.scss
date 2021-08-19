@@ -1,0 +1,10 @@
+@import "../../variables.scss";
+
+img {
+  border-radius: 50%;
+  height: 12em;
+  width: 12em;
+  object-fit: contain;
+  //   box-shadow: 0 0 1em rgba($color: $brown, $alpha: 0.8);
+  shape-outside: circle(50%) margin-box;
+}

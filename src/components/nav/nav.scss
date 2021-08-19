@@ -1,11 +1,24 @@
 @import "../../variables.scss";
 
 .nav_bar {
-  width: 100%;
-  height: 5em;
+  height: fit-content;
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 2em;
+  justify-content: space-between;
   background-color: $brown;
-  box-shadow: 0 0.2em 0.5em rgba($brown, 0.8);
+  box-shadow: 0 0.25em 0.5em rgba($brown, 0.9);
+  a {
+    color: $base-color;
+    text-decoration: none;
+    font-size: 2em;
+    &:hover {
+      transition: all 0.1s;
+      color: $orange;
+    }
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+  }
 }

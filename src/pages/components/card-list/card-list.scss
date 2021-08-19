@@ -1,0 +1,23 @@
+.card_list {
+  display: flex;
+  //   justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  .card {
+    width: calc(33.3% - 2em);
+    min-width: 500px;
+    animation-duration: 2s;
+    animation-name: fadein;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}

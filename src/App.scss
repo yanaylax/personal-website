@@ -3,7 +3,54 @@
 body,
 html {
   height: 100vh;
+  margin: 0 auto;
+  padding: 0 auto;
   font-size: 16px;
   background-color: $base-color;
   font-family: "Georama", sans-serif;
+}
+.home_page {
+  padding: 2em;
+  .dev_box {
+    display: flex;
+    align-items: center;
+    padding: 1.5em;
+    box-shadow: 0 0 1em rgba($color: $brown, $alpha: 0.9);
+    border-radius: 7em;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    text-shadow: 0 0 0.1em rgba($color: $brown, $alpha: 0.9);
+
+    .title {
+      margin-bottom: 0.5em;
+      h2 {
+        color: $orange;
+      }
+    }
+    h2 {
+      font-weight: 500;
+      line-height: 1em;
+
+      margin: 0;
+      .react {
+        color: $orange;
+      }
+    }
+    .dev_text {
+      line-height: 2em;
+      margin-left: 1em;
+      .dev_name {
+        margin: 0;
+        font-weight: 500;
+        font-size: 2.2em;
+      }
+      .dev_description {
+        p {
+          margin: 0;
+          line-height: 1.2em;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
 }
